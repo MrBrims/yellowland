@@ -6,4 +6,6 @@ package-lock.json
 debug.log
 inc/Feedback**.php
 inc/PrivateConstants.php
+inc/Ajax.php
+inc/Helpers.php
 !**/inc/Feedback.php
