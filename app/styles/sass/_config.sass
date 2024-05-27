@@ -1,0 +1,88 @@
+// USER VARIABLES SECTION
+
+$accent: #FFBD00 // Accent Color
+$orange: #FF522F // Orange Color
+$textcolor: #243344 // Text Color
+$titlecolor: #151116 // Title Color
+$userfont: NotoSans, sans-serif // User Font Family
+$titlefont: NotoSerif, sans-serif // Title Font Family
+$systemfont: -apple-system, BlinkMacSystemFont, Arial, sans-serif // System Font Family
+
+$layout: calc((100% - (var(--elements) - 1) * var(--gap)) / (var(--elements))) // Flex Response
+
+// Bootstrap compatible gutter variable => $gutter
+// $grid-gutter-width: 30px
+// $gutter: $grid-gutter-width
+
+// IMPORT SECTION
+
+@import 'node_modules/swiper/swiper-bundle' // Style Swiper
+@import 'node_modules/@fancyapps/ui/dist/fancybox' // Style Fancybox
+@import 'node_modules/intl-tel-input/build/css/intlTelInput' // Style in tel input
+@import 'node_modules/vanillajs-datepicker/sass/datepicker' // Style Datepicker
+@import 'node_modules/nice-select2/dist/css/nice-select2' // Style Nice Select
+@import 'node_modules/tippy.js/dist/tippy' // Style Tippy.js
+
+// @import 'node_modules/bootstrap/scss/bootstrap-reboot.scss' // Bootstrap Reboot collection
+// @import 'node_modules/bootstrap/scss/mixins/_breakpoints.scss' // Bootstrap Breakpoints mixin
+// @import 'node_modules/bootstrap/scss/bootstrap-grid.scss' // Optional Bootstrap Grid
+// @import 'node_modules/bootstrap/scss/_utilities.scss' // Optional Bootstrap Utilites
+
+// FONTS LOAD SECTION
+
+@mixin font($fname, $fstyle, $fweight, $furl)
+  @font-face
+    font-family: $fname
+    font-style: $fstyle
+    font-weight: $fweight
+    src: url($furl) format('woff2')
+
+@include font('NotoSerif', normal, 400, '../fonts/NotoSerif-Regular.woff2')
+@include font('NotoSerif', normal, 700, '../fonts/NotoSerif-Bold.woff2')
+
+@include font('NotoSans', normal, 400, '../fonts/NotoSans-Regular.woff2')
+@include font('NotoSans', normal, 500, '../fonts/NotoSans-Medium.woff2')
+@include font('NotoSans', normal, 700, '../fonts/NotoSans-Bold.woff2')
+
+// HOVER
+
+@mixin hover
+  transition: opacity .3s ease-in-out
+  &:hover
+    opacity: .7
+
+// BACKGROUND BEFORE ELEMENT
+
+@mixin bgbefore
+  content: ""
+  position: absolute
+  background-repeat: no-repeat
+  background-position: center center
+  top: 50%
+  transform: translateY(-50%)
+
+// GENERAL CSS SETTINGS
+
+::placeholder
+  color: #666
+
+::selection
+  background-color: $accent
+  color: #fff
+
+input, textarea
+  outline: none
+  &:focus:required:invalid
+    border-color: red
+  &:required:valid
+    border-color: green
+
+body
+  font-family: $userfont
+  font-weight: 400
+  @include fluidFontSize(14px, 16px, 480px, 1280px, 16px)
+  @include fluidLineHeight(20px, 26px, 480px, 1280px, 26px)
+  color: $textcolor
+  max-width: 1920px
+  position: relative
+  overflow-x: hidden

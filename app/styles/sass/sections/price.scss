@@ -1,0 +1,139 @@
+.price {
+	&__items {
+		--gap: 15px;
+		--elements: 5;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		gap: var(--gap);
+		@include fluidMarginB(30px, 60px, 480px, 1230px, 60px);
+	}
+
+	&__item {
+		width: $layout;
+		border: 1px solid #d8d6d7;
+		padding-top: 16px;
+		transition: border-color 0.3s ease-in-out;
+		display: flex;
+		flex-direction: column;
+	}
+
+	&__item-title {
+		color: $titlecolor;
+		text-align: center;
+		padding: 8px;
+		font-size: 14px;
+	}
+
+	&__item-text {
+		color: $textcolor;
+		text-align: center;
+		font-size: 12px;
+		padding: 0 8px;
+		margin-bottom: 15px;
+		margin-bottom: auto;
+	}
+
+	&__item-box {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background-color: #fff7ef;
+		height: 56px;
+	}
+
+	&__item-pref,
+	&__item-suf {
+		color: $titlecolor;
+		font-size: 12px;
+		line-height: 16;
+	}
+
+	&__item-num {
+		font-size: 24px;
+		color: $orange;
+		padding: 0 7px;
+		font-weight: 700;
+	}
+
+	&__item-btn {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 0 8px;
+		height: 48px;
+		background-color: $accent;
+		transition: all 0.3s ease-in-out;
+		color: $titlecolor;
+		text-transform: uppercase;
+		font-weight: 700;
+	}
+
+	&__item:hover {
+		border-color: $orange;
+
+		.price__item-btn {
+			background-color: $orange;
+		}
+
+		.price__item-btn {
+			color: #fff;
+		}
+	}
+
+	&__list-title {}
+
+	&__text {
+		p {
+			margin-bottom: 12px;
+		}
+
+		ul {
+			list-style-type: none;
+		}
+
+		li {
+			position: relative;
+			padding-left: 35px;
+			margin-bottom: 7px;
+		}
+
+		li:last-child {
+			margin-bottom: 0;
+		}
+
+		li::before {
+			content: "";
+			@include bgbefore;
+			left: 0;
+			width: 24px;
+			height: 24px;
+			background-image: url(../images/icons/price-list-icon.svg);
+		}
+	}
+}
+
+@media (max-width: 1230px) {
+	.price {
+		&__items {
+			--gap: 10px;
+			--elements: 3;
+		}
+	}
+}
+
+@media (max-width: 720px) {
+	.price {
+		&__items {
+			--elements: 2;
+		}
+	}
+}
+
+@media (max-width: 480px) {
+	.price {
+		&__items {
+			--elements: 1;
+		}
+	}
+}

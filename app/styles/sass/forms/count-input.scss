@@ -1,0 +1,44 @@
+.form-counter {
+  display: flex;
+  @include fluidHeight(42px, 48px, 480px, 1024px, 52px);
+  border: 1px solid #151116;
+  max-width: 114px;
+  position: relative;
+}
+
+.count-input {
+  border: none;
+  color: #151116;
+  position: relative;
+  z-index: 5;
+  text-align: center;
+  width: 50px;
+  flex-shrink: 0;
+}
+
+.counter-btn {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+}
+
+.count-text {
+  position: absolute;
+  top: 50%;
+  right: -50px;
+  transform: translateY(-50%);
+  font-size: 12px;
+  line-height: 16px;
+}
+
+/** HTML code
+  <div class="form-counter">
+    <div data-id="decrement" class="counter-btn">-</div>
+    <input class="count-input" name="deadline" type="number" value="40" max="1000" min="0" step="5" />
+    <div data-id="increment" class="counter-btn">+</div>
+  </div>
+*/

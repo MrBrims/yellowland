@@ -1,0 +1,5 @@
+.faq {
+  @include fluidPaddingT(40px, 80px, 480px, 1200px, 80px);
+  @include fluidPaddingB(20px, 40px, 480px, 1200px, 40px);
+  background-color: #fff7ef;
+}

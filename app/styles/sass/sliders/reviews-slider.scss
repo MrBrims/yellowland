@@ -1,0 +1,120 @@
+.reviews-slider {
+	position: relative;
+	user-select: none;
+
+	&__body {
+		height: 100%;
+	}
+
+	&__slide {
+		position: relative;
+		cursor: pointer;
+	}
+
+	&__link {
+		display: block;
+		position: relative;
+		width: 100%;
+		height: 100%;
+
+		&::after {
+			content: "";
+			position: absolute;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			left: 0;
+			background-color: rgb(21 17 22 / 60%);
+			padding: 40px 30px;
+			color: #fff;
+			opacity: 0;
+			transition: opacity 0.3s ease-in-out;
+			z-index: 2;
+		}
+
+		&::before {
+			content: "";
+			position: absolute;
+			bottom: 30px;
+			right: 30px;
+			width: 23px;
+			height: 23px;
+			background-image: url(../images/icons/loop.svg);
+			background-repeat: no-repeat;
+			background-position: center center;
+			background-size: cover;
+			opacity: 0;
+			transition: opacity 0.3s ease-in-out;
+			z-index: 3;
+		}
+	}
+
+	&__slide:hover {
+
+		.reviews-slider__link::after,
+		.reviews-slider__link::before {
+			opacity: 1;
+		}
+	}
+
+	&__img {
+		height: auto;
+	}
+
+	&__next,
+	&__prev {
+		width: 32px;
+		height: 32px;
+		border: 1px solid #6e6870;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		position: absolute;
+		bottom: -50px;
+		cursor: pointer;
+		background-color: #fff;
+		transition: border-color 0.3s ease-in-out;
+
+		path {
+			transition: fill 0.3s ease-in-out;
+		}
+
+		&:hover {
+			border-color: $orange;
+
+			path {
+				fill: #FF522F;
+			}
+		}
+	}
+
+	&__next {
+		left: 60px;
+	}
+
+	&__prev {
+		left: 0;
+	}
+}
+
+/** HTML code
+  <div class="slider">
+    <div class="slider__body swiper">
+      <div class="slider__wrapper swiper-wrapper">
+        <div class="slider__slide swiper-slide">
+          <a class="slider__link" href="" data-fancybox="slider gallery">
+            <img class="swiper-lazy" src="">
+          </a>
+          <div class="swiper-lazy-preloader"></div>
+        </div>
+      </div>
+    </div>
+    <div class="slider__next">
+      Вперед
+    </div>
+    <div class="slider__prev">
+      Назад
+    </div>
+    <div class="slider__nav"></div>
+  </div>
+*/

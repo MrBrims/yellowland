@@ -1,0 +1,19 @@
+.popup-form {
+  &__content {
+    max-width: 900px;
+    border: 0.5px dashed #151116;
+    border-radius: 16px;
+    .big-form {
+      border: none;
+      padding: 0 15px 20px 15px;
+      &__title {
+        @include fluidFontSize(20px, 26px, 480px, 1280px, 26px);
+        @include fluidLineHeight(28px, 32px, 480px, 1280px, 32px);
+        @include fluidMarginB(15px, 20px, 480px, 1024px, 20px);
+      }
+      &__subtitle {
+        @include fluidMarginB(20px, 30px, 480px, 1024px, 30px);
+      }
+    }
+  }
+}

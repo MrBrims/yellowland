@@ -1,0 +1,27 @@
+.rev-rating {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  &__star {
+    display: block;
+    width: 12px;
+    height: 12px;
+  }
+  &__star-fill {
+    background-image: url(../images/icons/star-fill.svg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+  &__star-half {
+    background-image: url(../images/icons/star-half.svg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+  &__num {
+    font-size: 12px;
+    line-height: 1;
+    color: $textcolor;
+  }
+}

@@ -1,0 +1,201 @@
+@function strip-unit($number) {
+  @if type-of($number) == 'number' and not unitless($number) {
+    @return calc($number / ($number * 0 + 1px));
+  }
+
+  @return $number;
+}
+
+@function calcFluidSize($f-min, $f-max, $w-min, $w-max, $units: px) {
+  $f-min: strip-unit($f-min);
+  $f-max: strip-unit($f-max);
+  $w-min: strip-unit($w-min);
+  $w-max: strip-unit($w-max);
+  
+	$k: calc(($f-max - $f-min) / ($w-max - $w-min));
+	$b: $f-min - $k * $w-min;
+
+	$b: $b + $units;
+
+	@return calc( #{$k} * 100vw + #{$b} );
+}
+
+@mixin fluidFontSize($f-min, $f-max, $w-min, $w-max, $fallback: false) {
+  
+  font-size: $f-min;
+  
+  @media (min-width: $w-min) {
+    @if ($fallback) {
+      font-size: $fallback;
+    }
+    font-size: calcFluidSize($f-min, $f-max, $w-min, $w-max, px);  
+  }
+  @media (min-width: $w-max) {
+    font-size: $f-max;
+  }
+}
+
+@mixin fluidLineHeight($f-min, $f-max, $w-min, $w-max, $fallback: false) {
+  
+  line-height: $f-min;
+  
+  @media (min-width: $w-min) {
+    @if ($fallback) {
+      line-height: $fallback;
+    }
+    line-height: calcFluidSize($f-min, $f-max, $w-min, $w-max, px);  
+  }
+  @media (min-width: $w-max) {
+    line-height: $f-max;
+  }
+}
+
+@mixin fluidPaddingLR($f-min, $f-max, $w-min, $w-max, $fallback: false) {
+  
+  padding: 0 $f-min;
+  
+  @media (min-width: $w-min) {
+    @if ($fallback) {
+      padding: 0 $fallback;
+    }
+    padding: 0 calcFluidSize($f-min, $f-max, $w-min, $w-max, px);  
+  }
+  @media (min-width: $w-max) {
+    padding: 0 $f-max;
+  }
+}
+
+@mixin fluidPaddingT($f-min, $f-max, $w-min, $w-max, $fallback: false) {
+  
+  padding-top: $f-min;
+  
+  @media (min-width: $w-min) {
+    @if ($fallback) {
+      padding-top: $fallback;
+    }
+    padding-top: calcFluidSize($f-min, $f-max, $w-min, $w-max, px);  
+  }
+  @media (min-width: $w-max) {
+    padding-top: $f-max;
+  }
+}
+
+@mixin fluidPaddingB($f-min, $f-max, $w-min, $w-max, $fallback: false) {
+  
+  padding-bottom: $f-min;
+  
+  @media (min-width: $w-min) {
+    @if ($fallback) {
+      padding-bottom: $fallback;
+    }
+    padding-bottom: calcFluidSize($f-min, $f-max, $w-min, $w-max, px);  
+  }
+  @media (min-width: $w-max) {
+    padding-bottom: $f-max;
+  }
+}
+
+@mixin fluidPaddingL($f-min, $f-max, $w-min, $w-max, $fallback: false) {
+  
+  padding-left: $f-min;
+  
+  @media (min-width: $w-min) {
+    @if ($fallback) {
+      padding-left: $fallback;
+    }
+    padding-left: calcFluidSize($f-min, $f-max, $w-min, $w-max, px);  
+  }
+  @media (min-width: $w-max) {
+    padding-left: $f-max;
+  }
+}
+
+@mixin fluidPaddingR($f-min, $f-max, $w-min, $w-max, $fallback: false) {
+  
+  padding-right: $f-min;
+  
+  @media (min-width: $w-min) {
+    @if ($fallback) {
+      padding-right: $fallback;
+    }
+    padding-right: calcFluidSize($f-min, $f-max, $w-min, $w-max, px);  
+  }
+  @media (min-width: $w-max) {
+    padding-right: $f-max;
+  }
+}
+
+@mixin fluidMarginTB($f-min, $f-max, $w-min, $w-max, $fallback: false) {
+  
+  margin: $f-min 0;
+  
+  @media (min-width: $w-min) {
+    @if ($fallback) {
+      margin: $fallback 0;
+    }
+    margin: calcFluidSize($f-min, $f-max, $w-min, $w-max, px) 0;  
+  }
+  @media (min-width: $w-max) {
+    margin: $f-max 0;
+  }
+}
+
+@mixin fluidMarginT($f-min, $f-max, $w-min, $w-max, $fallback: false) {
+  
+  margin-top: $f-min;
+  
+  @media (min-width: $w-min) {
+    @if ($fallback) {
+      margin-top: $fallback;
+    }
+    margin-top: calcFluidSize($f-min, $f-max, $w-min, $w-max, px);  
+  }
+  @media (min-width: $w-max) {
+    margin-top: $f-max;
+  }
+}
+
+@mixin fluidMarginB($f-min, $f-max, $w-min, $w-max, $fallback: false) {
+  
+  margin-bottom: $f-min;
+  
+  @media (min-width: $w-min) {
+    @if ($fallback) {
+      margin-bottom: $fallback;
+    }
+    margin-bottom: calcFluidSize($f-min, $f-max, $w-min, $w-max, px);  
+  }
+  @media (min-width: $w-max) {
+    margin-bottom: $f-max;
+  }
+}
+
+@mixin fluidWidth($f-min, $f-max, $w-min, $w-max, $fallback: false) {
+  
+  width: $f-min;
+  
+  @media (min-width: $w-min) {
+    @if ($fallback) {
+      width: $fallback;
+    }
+    width: calcFluidSize($f-min, $f-max, $w-min, $w-max, px);  
+  }
+  @media (min-width: $w-max) {
+    width: $f-max;
+  }
+}
+
+@mixin fluidHeight($f-min, $f-max, $w-min, $w-max, $fallback: false) {
+  
+  height: $f-min;
+  
+  @media (min-width: $w-min) {
+    @if ($fallback) {
+      height: $fallback;
+    }
+    height: calcFluidSize($f-min, $f-max, $w-min, $w-max, px);  
+  }
+  @media (min-width: $w-max) {
+    height: $f-max;
+  }
+}

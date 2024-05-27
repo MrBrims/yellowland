@@ -1,0 +1,58 @@
+.reviews {
+  @include fluidPaddingT(20px, 40px, 480px, 1200px, 40px);
+  @include fluidPaddingB(40px, 80px, 480px, 1200px, 40px);
+  background-color: #FFF7EF;
+  &__title {
+    position: relative;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 40px;
+    &::before {
+      @include bgbefore;
+      background-image: url(../images/icons/star.svg);
+      width: 35px;
+      height: 35px;
+      left: 0;
+      background-size: 35px;
+    }
+  }
+  &__rev-inner {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+  &__rev-box {
+    width: 130px;
+    height: 55px;
+    padding: 5px 0;
+    background: #ffffff;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    &:first-child img {
+      max-width: 70px;
+    }
+    &:nth-child(2) img {
+      max-width: 120px;
+    }
+    &:last-child img {
+      max-width: 105px;
+    }
+  }
+  &__rev-img {
+    margin-bottom: auto;
+  }
+}
+
+@media (max-width: 460px) {
+  .reviews {
+    &__rev-inner {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+}

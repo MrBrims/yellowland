@@ -1,0 +1,95 @@
+.authors {
+  @include fluidPaddingT(20px, 40px, 480px, 1200px, 40px);
+  @include fluidPaddingB(40px, 80px, 480px, 1200px, 40px);
+  background-color: #fff7ef;
+  &__inner {
+    display: flex;
+    gap: 30px;
+  }
+  &__img {
+    max-width: 50%;
+    object-fit: contain;
+  }
+  &__content {
+    width: 100%;
+  }
+  &__content-title {
+    @include fluidFontSize(20px, 24px, 480px, 1280px, 24px);
+    @include fluidLineHeight(30px, 32px, 480px, 1280px, 32px);
+    margin-bottom: 15px;
+  }
+  &__content-text {
+    @include fluidMarginB(30px, 60px, 480px, 1200px, 60px);
+  }
+  &__bage-box {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+  }
+  &__bage {
+    border: 1px solid #151116;
+    padding: 25px;
+    background-color: #fff;
+  }
+  &__bage-head {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  &__bage-icon {
+    max-width: 37px;
+  }
+  &__bage-num {
+    font-size: 32px;
+    font-weight: 700;
+    color: $orange;
+  }
+  &__bage-title {
+    display: block;
+    text-align: center;
+  }
+}
+
+@media (max-width: 1230px) {
+  .authors {
+    &__img {
+      display: none;
+    }
+    &__content-title,
+    &__content-text {
+      text-align: center;
+    }
+  }
+}
+
+@media (max-width: 680px) {
+  .authors {
+    &__bage-box {
+      --gap: 10px;
+      --elements: 3;
+      gap: var(--gap);
+      flex-wrap: wrap;
+    }
+    &__bage {
+      width: $layout;
+    }
+  }
+}
+
+@media (max-width: 580px) {
+  .authors {
+    &__bage-box {
+      --elements: 2;
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  .authors {
+    &__bage-box {
+      --elements: 1;
+    }
+  }
+}

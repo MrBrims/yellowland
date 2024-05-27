@@ -1,0 +1,116 @@
+.big-form {
+  @include fluidPaddingT(20px, 40px, 480px, 1230px, 40px);
+  @include fluidPaddingB(20px, 40px, 480px, 1230px, 40px);
+  @include fluidPaddingR(10px, 55px, 480px, 1230px, 55px);
+  @include fluidPaddingL(10px, 55px, 480px, 1230px, 55px);
+  border: 0.5px solid #151116;
+  border-radius: 16px;
+
+  &__title {
+    margin-bottom: 15px;
+  }
+
+  &__subtitle {
+    text-align: center;
+    @include fluidMarginB(25px, 55px, 480px, 1230px, 55px);
+  }
+
+  &__items {
+    display: flex;
+    gap: 30px;
+  }
+
+  &__item:first-child {
+    max-width: 60%;
+    width: 100%;
+  }
+
+  &__drop {
+    border: 0.5px dashed #000000;
+    padding: 25px;
+    min-height: 120px;
+    cursor: pointer;
+    @include fluidMarginB(15px, 25px, 480px, 1230px, 25px);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    span {
+      font-size: 14px;
+    }
+  }
+
+  &__btn {
+    max-width: 250px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+  }
+
+  &__upload {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+  }
+
+  &__drop-name {
+    background-color: #fff;
+    left: 8px;
+    position: absolute;
+    top: -14px;
+    font-size: 12px;
+    padding: 0 8px;
+  }
+
+  &__drop-title {
+    font-size: 14px;
+  }
+
+  &__text {
+    text-align: center;
+  }
+
+  &__drop-accent {
+    color: $orange;
+  }
+
+  &__price {
+    margin-bottom: 25px;
+  }
+}
+
+@media (max-width: 920px) {
+  .big-form {
+    &__items {
+      gap: 10px;
+    }
+
+    &__inner .checkbox-label {
+      font-size: 13px;
+      line-height: 1.2;
+    }
+
+    &__text {
+      max-width: 480px;
+      margin: 0 auto;
+    }
+  }
+}
+
+@media (max-width: 720px) {
+  .big-form {
+    &__items {
+      flex-direction: column;
+      gap: 0;
+    }
+
+    &__item:first-child {
+      max-width: 100%;
+    }
+  }
+}

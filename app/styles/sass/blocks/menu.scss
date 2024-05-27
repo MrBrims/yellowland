@@ -1,0 +1,153 @@
+.menu {
+	display: flex;
+	align-items: center;
+
+	&__list {
+		display: flex;
+		gap: 10px;
+	}
+
+	&__link {
+		padding: 5px;
+		color: $titlecolor;
+	}
+
+	&__btn {
+		width: 22px;
+		height: 18px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		margin-left: auto;
+		cursor: pointer;
+		display: none;
+
+		span {
+			display: block;
+			width: 100%;
+			height: 2px;
+			background-color: $titlecolor;
+			transition: transform 0.3s ease-in-out;
+		}
+
+		&.--active span:nth-child(1) {
+			transform: rotate(45deg) translate(5px, 5px);
+		}
+
+		&.--active span:nth-child(2) {
+			display: none;
+		}
+
+		&.--active span:nth-child(3) {
+			transform: rotate(-45deg) translate(6px, -6px);
+		}
+	}
+
+	.header__time,
+	.header__mail,
+	.header__phone,
+	.header__whats {
+		display: none;
+	}
+}
+
+@media (max-width: 1200px) {
+	.menu {
+		&__body {
+			position: fixed;
+			width: 100%;
+			height: 100%;
+			background-color: rgba(0, 0, 0, 0.4);
+			top: 0;
+			left: 0;
+			opacity: 0;
+			visibility: hidden;
+			transition: all 0.3s ease-in-out;
+			z-index: 200;
+		}
+
+		&__body.--active {
+			opacity: 1;
+			visibility: visible;
+		}
+
+		&__list {
+			padding: 50px;
+			flex-direction: column;
+			max-width: fit-content;
+			background-color: #243344;
+			height: 100%;
+			overflow-y: auto;
+			min-width: 300px;
+			position: fixed;
+			top: 0;
+			left: -100%;
+			transition: left 0.4s ease-in-out;
+		}
+
+		&__link {
+			color: #fff;
+			padding-left: 0;
+		}
+
+		&__body.--active .menu__list {
+			left: 0;
+		}
+
+		&__btn {
+			display: flex;
+			z-index: 300;
+		}
+
+		.header__time {
+			border-top: 1px solid #fff;
+			padding-top: 30px;
+			margin-top: 20px;
+		}
+	}
+}
+
+@media (max-width: 900px) {
+	.menu {
+		.header__time {
+			display: inline;
+		}
+	}
+}
+
+@media (max-width: 730px) {
+	.menu {
+		&__list {
+			padding: 50px 25px;
+			min-width: 260px;
+		}
+
+		.header__mail {
+			display: inline;
+		}
+	}
+}
+
+@media (max-width:580px) {
+	.menu {
+		.header__whats {
+			display: inline;
+		}
+	}
+}
+
+@media (max-width: 480px) {
+	.menu {
+		.header__phone {
+			display: inline;
+		}
+	}
+}
+
+@media (max-width: 420px) {
+	.menu {
+		&__list {
+			min-width: 240px;
+		}
+	}
+}

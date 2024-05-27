@@ -1,0 +1,78 @@
+.whatsapp-btn {
+	position: fixed;
+	display: block;
+	border-radius: 100px;
+	width: 60px;
+	height: 60px;
+	right: 25px;
+	bottom: 25px;
+	background-color: #25d366;
+	z-index: 1000;
+	transition: all .3s ease-in-out;
+	overflow: hidden;
+
+	&::before {
+		content: '';
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+		left: 0;
+		border-radius: 50%;
+		display: block;
+		width: 20em;
+		height: 20em;
+		transition: box-shadow .3s ease-out;
+		transition-delay: .2s;
+		z-index: -1;
+	}
+
+	svg {
+		transition: all .1s ease-in-out;
+		position: absolute;
+		top: 6px;
+		left: 6px;
+	}
+
+	span {
+		color: #151116;
+		font-size: 14px;
+		line-height: 1.2;
+		opacity: 0;
+		visibility: hidden;
+		padding-left: 45px;
+		display: block;
+		padding-top: 12px;
+	}
+
+	&:hover {
+		width: 200px;
+
+		&::before {
+			box-shadow: inset 0 0 0 10em #ffbd00;
+		}
+
+		svg {
+			transform: scale(.5);
+			left: 3px;
+		}
+
+		span {
+			opacity: 1;
+			visibility: visible;
+			transition: .6s ease-in-out;
+		}
+	}
+
+
+}
+
+@media (max-width: 720px) {
+	.whatsapp-btn {
+		bottom: 15px;
+		right: 15px;
+	}
+}
+
+#wpadminbar {
+	display: none !important;
+}

@@ -1,0 +1,105 @@
+.form {
+  user-select: none;
+
+  &.--sending {
+    position: relative;
+    overflow: hidden;
+
+    &::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background-color: rgba(255, 255, 255, 0.6);
+      z-index: 90;
+    }
+
+    &::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background-image: url(../images/icons/refresh.svg);
+      background-position: center center;
+      background-size: 100px;
+      background-repeat: no-repeat;
+      opacity: 0.7;
+      z-index: 100;
+      animation: refreshForm infinite 2s;
+    }
+  }
+
+  &__box {
+    @include fluidMarginB(15px, 20px, 480px, 1200px, 20px);
+  }
+
+  &__date-box {
+    width: 100%;
+  }
+
+  &__chek-inner {
+    padding: 12px 16px;
+    border: 1px solid #151116;
+  }
+
+  &__inner {
+    display: flex;
+    gap: 20px;
+
+    .input-box {
+      width: 50%;
+    }
+  }
+
+  &__price {
+    min-height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 28px;
+    color: $orange;
+
+    span {
+      font-size: 37px;
+      font-weight: 700;
+    }
+  }
+}
+
+@keyframes refreshForm {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 920px) {
+  .form {
+    &__inner {
+      gap: 10px;
+    }
+  }
+}
+
+@media (max-width: 520px) {
+  .form {
+    &__chek-inner {
+      padding: 10px 14px;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .form {
+    &__inner {
+      flex-direction: column;
+      gap: 0;
+
+      .input-box {
+        width: 100%;
+      }
+    }
+  }
+}

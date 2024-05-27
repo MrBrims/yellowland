@@ -1,0 +1,9 @@
+# Ignore them file
+node_modules
+Thumbs.db
+*.DS_Store
+package-lock.json
+debug.log
+inc/Feedback**.php
+inc/PrivateConstants.php
+!**/inc/Feedback.php

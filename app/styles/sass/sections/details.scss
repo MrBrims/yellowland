@@ -1,0 +1,41 @@
+.details {
+  &__wrapper {
+    display: flex;
+    gap: 30px;
+  }
+  &__inner {
+    width: calc(100% - 330px);
+  }
+  &__team {
+    width: 300px;
+    height: fit-content;
+    top: 110px;
+    position: sticky;
+  }
+  &__text p {
+    @include fluidMarginB(10px, 15px, 480px, 1024px, 15px);
+  }
+  &__text p:last-child {
+    margin-bottom: 0;
+  }
+  // &__text h3 {
+  //   @include fluidMarginT(20px, 30px, 480px, 1024px, 30px);
+  // }
+}
+
+@media (max-width: 860px) {
+  .details {
+    &__wrapper {
+      flex-wrap: wrap;
+    }
+    &__inner {
+      width: 100%;
+    }
+    &__team {
+      position: static;
+      width: 100%;
+      max-width: 500px;
+      margin: 0 auto;
+    }
+  }
+}

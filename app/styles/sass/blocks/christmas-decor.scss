@@ -1,0 +1,19 @@
+.christmas-decor {
+	// position: absolute;
+	// bottom: -36px;
+	// height: 52px;
+	// width: 100%;
+	// left: 50%;
+	// transition: bottom .3s ease-in-out;
+	// transform: translateX(-50%);
+	// background-image: url(../images/ny/garland.svg);
+	// background-repeat: no-repeat;
+	// background-size: cover;
+	// background-position: center;
+
+	display: none;
+}
+
+.header.--fixed .christmas-decor {
+	// bottom: -44px;
+}

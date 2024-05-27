@@ -1,0 +1,83 @@
+.guarant {
+	@include fluidPaddingT(40px, 80px, 480px, 1200px, 80px);
+	@include fluidPaddingB(40px, 80px, 480px, 1200px, 80px);
+	margin-bottom: 0;
+	background-color: #fff7ef;
+
+	&__items {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		--gap: 30px;
+		--elements: 3;
+		gap: var(--gap);
+	}
+
+	&__item {
+		width: $layout;
+		background-color: $accent;
+		padding: 20px;
+	}
+
+	&__item-head {
+		display: flex;
+		gap: 15px;
+		justify-content: space-between;
+		align-items: center;
+		margin-bottom: 15px;
+	}
+
+	&__item-title {}
+
+	&__item-box {
+		width: 48px;
+		height: 48px;
+		flex-shrink: 0;
+		background-color: #243344;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	&__item-icon {
+		max-width: 32px;
+	}
+
+	&__form-box {
+		background-color: #fff7ef;
+		border: 1px solid #151116;
+	}
+}
+
+@media (max-width:1230px) {
+	.guarant {
+		&__items {
+			--gap: 15px;
+		}
+	}
+}
+
+@media (max-width:1024px) {
+	.guarant {
+		&__items {
+			--gap: 10px;
+			--elements: 2;
+		}
+	}
+}
+
+@media (max-width:720px) {
+	.guarant {
+		&__items {
+			--elements: 1;
+		}
+	}
+}
+
+@media (max-width:420px) {
+	.guarant {
+		&__item {
+			padding: 10px 12px;
+		}
+	}
+}

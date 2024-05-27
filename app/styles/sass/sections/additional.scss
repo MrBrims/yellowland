@@ -1,0 +1,103 @@
+.additional {
+  @include fluidPaddingT(20px, 40px, 480px, 1200px, 40px);
+  @include fluidPaddingB(20px, 40px, 480px, 1200px, 40px);
+  background-color: #fff7ef;
+  &__items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px 0;
+    @include fluidMarginB(25px, 40px, 480px, 1200px, 40px);
+  }
+  &__item {
+    width: 25%;
+    border-right: 2px solid #6e6870;
+    &:nth-child(n + 4) {
+      border-right: 0;
+    }
+  }
+  &__item-head {
+    display: flex;
+    align-items: center;
+    background-color: #243344;
+    padding: 15px;
+    gap: 20px;
+  }
+  &__item-title {
+    color: #fff;
+    font-size: 14px;
+  }
+  &__item-list {
+    padding: 8px 15px;
+    ul {
+      list-style-type: none;
+      font-size: 14px;
+    }
+    li {
+      line-height: 1.2;
+      margin-bottom: 5px;
+    }
+  }
+  &__title {
+    @include fluidFontSize(18px, 20px, 480px, 1200px, 20px);
+    @include fluidLineHeight(22px, 24px, 480px, 1200px, 24px);
+    margin-bottom: 8px;
+    text-align: center;
+    color: $orange;
+  }
+  &__text {
+    @include fluidMarginB(15px, 25px, 480px, 1200px, 25px);
+    text-align: center;
+  }
+  &__btn {
+    max-width: 220px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 1100px) {
+  .additional {
+    &__item {
+      &:nth-child(even) {
+        border-right: 0;
+      }
+      width: 50%;
+    }
+    &__item-list ul {
+      column-count: 2;
+      gap: 15px;
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  .additional {
+    &__item-list ul {
+      column-count: 1;
+    }
+  }
+}
+
+@media (max-width: 580px) {
+  .additional {
+    &__item {
+      border: none;
+      width: 100%;
+    }
+    &__item-list ul {
+      column-count: 2;
+      gap: 15px;
+    }
+  }
+}
+
+@media (max-width: 460px) {
+  .additional {
+    &__item-head {
+      justify-content: center;
+    }
+    &__item-list ul {
+      column-count: 1;
+    }
+  }
+}

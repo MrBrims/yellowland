@@ -1,0 +1,70 @@
+.date-input {
+  cursor: pointer;
+}
+
+.datepicker-input.in-edit:active,
+.datepicker-input.in-edit:focus {
+  box-shadow: 0 0 0.25em 0.25em rgb(255 189 0 / 21%);
+}
+
+.date-img {
+  position: absolute;
+  right: 0;
+  @include fluidWidth(42px, 48px, 480px, 1024px, 52px);
+  @include fluidHeight(42px, 48px, 480px, 1024px, 52px);
+  top: 0;
+  bottom: 0;
+  border: 1px solid #151116;
+  background-image: url(../images/icons/calendar.svg);
+  background-color: $accent;
+  background-size: 24px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  z-index: 10;
+  cursor: pointer;
+}
+
+.datepicker-picker {
+  border-radius: 0;
+  padding: 7px;
+}
+
+.datepicker-dropdown .datepicker-picker {
+  box-shadow: none;
+  border: 1px solid #151116;
+}
+
+.datepicker-controls {
+  gap: 5px;
+}
+
+.datepicker-picker button {
+  background-color: $accent;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 28px;
+  line-height: 0;
+  @include hover;
+}
+
+.datepicker span {
+  border-radius: 0;
+}
+
+.datepicker-cell.selected, .datepicker-cell.selected:hover {
+    background-color: $accent;
+}
+
+@media (max-width: 520px) {
+  .date-img {
+    background-size: 18px;
+  }
+}
+
+/** HTML code
+  <input class="date-input" placeholder="date" autocomplete="off" name="deadline" type="text" />
+*/

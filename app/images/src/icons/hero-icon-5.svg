@@ -1,0 +1,34 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="001-diploma">
+<g id="g105">
+<g id="g107">
+<g id="Clip path group">
+<mask id="mask0_1729_1137" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+<g id="clipPath113">
+<path id="path111" d="M0 1.90735e-06H24V24H0V1.90735e-06Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask0_1729_1137)">
+<g id="g109">
+<g id="g115">
+<path id="path117" d="M18.3542 8.49466V13.5196C18.3542 14.2994 15.5094 15.4023 12 15.4023C8.49072 15.4023 5.64587 14.2994 5.64587 13.5196V8.49466" stroke="#151116" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="g119">
+<path id="path121" d="M12 10.6958L0.703125 6.67964L12 2.69386L23.2969 6.67964L12 10.6958Z" stroke="#151116" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="g123">
+<path id="path125" d="M21.6082 7.42067V15.2141" stroke="#151116" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="g127">
+<path id="path129" d="M23.0203 16.6262C23.0203 17.4061 22.3881 18.0383 21.6082 18.0383C20.8282 18.0383 20.196 17.4061 20.196 16.6262C20.196 15.8463 20.8282 15.2141 21.6082 15.2141C22.3881 15.2141 23.0203 15.8463 23.0203 16.6262Z" stroke="#151116" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="g131">
+<path id="path133" d="M21.6082 18.0384V21.3062" stroke="#151116" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</svg>

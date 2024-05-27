@@ -1,0 +1,22 @@
+.callback-wrap {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  &__title {
+    text-align: center;
+    color: $orange;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    margin-top: auto;
+  }
+  &__text {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  &__btn {
+    text-transform: uppercase;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: auto;
+  }
+}

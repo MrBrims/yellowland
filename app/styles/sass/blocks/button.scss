@@ -1,0 +1,12 @@
+.btn {
+  display: flex;
+  background-color: $orange;
+  justify-content: center;
+  align-items: center;
+  @include fluidHeight(42px, 52px, 480px, 1024px, 52px);
+  color: #fff;
+  @include hover;
+}
+input.btn {
+  border: none;
+}

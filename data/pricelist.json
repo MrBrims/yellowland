@@ -1,0 +1,1133 @@
+[
+	{
+		"category": "Geisteswissenschaften",
+		"description": "(Pädagogik, Psychologie, Germanistik, Sozialarbeit, Weltliteratur usw.)",
+		"specialties": [
+			"Amerikanistik",
+			"Anglistik",
+			"Arabistik",
+			"Architektur",
+			"Audiopädagogik",
+			"Außenpolitik",
+			"Berufs- und Arbeitspädagogik",
+			"Betriebspädagogik",
+			"Britische Literatur und Kultur",
+			"Bühnenbild",
+			"Comics",
+			"Darstellende Kunst",
+			"Design",
+			"Deutsch als Fremdsprache",
+			"Diakonie",
+			"Erziehungswissenschaften",
+			"Ethik",
+			"Europastudien",
+			"Filmwissenschaft",
+			"Freie Kunst",
+			"Frühkindliche Bildung",
+			"Gebärdensprache",
+			"Gedichte",
+			"Gefahrenabwehr",
+			"Gender Studies",
+			"Germanistik",
+			"Gesang",
+			"Geschichte",
+			"Geschlechterforschung",
+			"Gesetzgebung bildende Kunst",
+			"Grafikdesign",
+			"Hermeneutik",
+			"Indogermanische Sprachwissenschaft",
+			"Innenarchitektur",
+			"Islamische Theologie",
+			"Islamwissenschaften",
+			"Japanologie",
+			"Journalismus",
+			"Journalistik",
+			"Judaistik",
+			"Kamera",
+			"Klinische Psychologie",
+			"Kommunikation",
+			"Kommunikationsdesign",
+			"Kulturanthropologie",
+			"Kulturen",
+			"Kulturwissenschaften",
+			"Kunst",
+			"Kunstgeschichte",
+			"Kunstwissenschaften",
+			"Landschaftsarchitektur",
+			"Latein",
+			"Lebenssicherheit",
+			"Lehramt",
+			"Linguistik",
+			"Literarisches Schreiben",
+			"Literaturwissenschaften",
+			"Medien",
+			"Minderheitenfragen",
+			"Modedesign",
+			"Morphologie",
+			"Musikmanagement",
+			"Musikwissenschaft",
+			"Naturschutz",
+			"Naturwissenschaften",
+			"Niederlandistik",
+			"Orientalistik",
+			"Osteuropawissenschaften",
+			"Philologie",
+			"Philosophie",
+			"Physikalische Technik",
+			"Physiotherapie",
+			"Phänomenologie",
+			"Postcolonial Literature",
+			"Psychologie",
+			"Puppenspiel",
+			"Pädagogik",
+			"Pädagogik der Kindheit",
+			"Rechtsphilosophie",
+			"Regie",
+			"Regionalstudien",
+			"Religion",
+			"Religionspädagogik",
+			"Religionswissenschaften",
+			"Rhetorik",
+			"Romanistik",
+			"Schauspiel",
+			"Sicherheit",
+			"Sinologie",
+			"Slawistik",
+			"Sorabistik",
+			"Soziale Arbeit",
+			"Sozialgeschichte",
+			"Sozialpädagogik",
+			"Sozialwissenschaften",
+			"Soziologie",
+			"Sport",
+			"Sportmanagement",
+			"Sportpsychologie",
+			"Sportwissenschaften",
+			"Sportökonomie",
+			"Sprachen",
+			"Sprachwissenschaften",
+			"Textildesign",
+			"Theaterwissenschaft",
+			"Theologie",
+			"Tourismus",
+			"Tourismusmanagement",
+			"Travel",
+			"Umweltethik",
+			"Volksmusik",
+			"Wissenschaftsgeschichte",
+			"Wissenschaftsjournalismus",
+			"Ägyptologie"
+		],
+		"prices": [
+			{
+				"name": "Hausarbeit",
+				"perOneMin": 50,
+				"perOneMax": 73,
+				"quantityPrices": [5, 10, 15]
+			},
+			{
+				"name": "Seminararbeit",
+				"perOneMin": 50,
+				"perOneMax": 73,
+				"quantityPrices": [5, 10, 15]
+			},
+			{
+				"name": "Bachelorarbeit",
+				"perOneMin": 51,
+				"perOneMax": 76,
+				"quantityPrices": [15, 22, 30]
+			},
+			{
+				"name": "Diplomarbeit",
+				"perOneMin": 51,
+				"perOneMax": 78,
+				"quantityPrices": [25, 35, 45]
+			},
+			{
+				"name": "Dissertation",
+				"perOneMin": 62,
+				"perOneMax": 90,
+				"quantityPrices": [20, 40, 60, 100]
+			},
+			{
+				"name": "Masterarbeit",
+				"perOneMin": 52,
+				"perOneMax": 80,
+				"quantityPrices": [30, 40, 50]
+			},
+			{
+				"name": "Doktorarbeit",
+				"perOneMin": 62,
+				"perOneMax": 90,
+				"quantityPrices": [20, 40, 60, 100]
+			},
+			{
+				"name": "Facharbeit",
+				"perOneMin": 50,
+				"perOneMax": "",
+				"quantityPrices": []
+			},
+			{
+				"name": "Abschlussarbeit",
+				"perOneMin": 50,
+				"perOneMax": "",
+				"quantityPrices": []
+			},
+			{
+				"name": "Bewerbung",
+				"perOneMin": 50,
+				"perOneMax": "",
+				"quantityPrices": []
+			},
+			{
+				"name": "Biografie",
+				"perOneMin": 49,
+				"perOneMax": "",
+				"quantityPrices": []
+			},
+			{
+				"name": "Businessplan",
+				"perOneMin": 59,
+				"perOneMax": "",
+				"quantityPrices": []
+			},
+			{
+				"name": "Danksagung",
+				"perOneMin": 40,
+				"perOneMax": "",
+				"quantityPrices": []
+			},
+			{
+				"name": "Essay",
+				"perOneMin": 49,
+				"perOneMax": "",
+				"quantityPrices": []
+			},
+			{
+				"name": "Exposé",
+				"perOneMin": 51,
+				"perOneMax": "",
+				"quantityPrices": []
+			},
+			{
+				"name": "Forschungsantrag",
+				"perOneMin": 56,
+				"perOneMax": "",
+				"quantityPrices": []
+			},
+			{
+				"name": "Motivationsschreiben",
+				"perOneMin": 150,
+				"perOneMax": "",
+				"quantityPrices": []
+			},
+			{
+				"name": "Präsentationen",
+				"perSlide": 25,
+				"perOneMax": "",
+				"quantityPrices": []
+			},
+			{
+				"name": "Projektarbeit",
+				"perOneMin": 50,
+				"perOneMax": "",
+				"quantityPrices": []
+			},
+			{
+				"name": "Referat",
+				"perOneMin": 50,
+				"perOneMax": "",
+				"quantityPrices": []
+			},
+			{
+				"name": "Statistische Analyse",
+				"perOneMin": 52,
+				"perOneMax": "",
+				"quantityPrices": []
+			},
+			{
+				"name": "Statistische Auswertungen",
+				"perOneMin": 120,
+				"perOneMax": "",
+				"quantityPrices": []
+			},
+			{
+				"name": "Studienarbeit",
+				"perOneMin": 50,
+				"perOneMax": "",
+				"quantityPrices": []
+			},
+			{
+				"name": "Zusammenfassung",
+				"perOneMin": 60,
+				"perOneMax": "",
+				"quantityPrices": []
+			}
+		]
+	},
+	{
+		"category": "Wirtschaftswissenschaften",
+		"description": "(BWL, Wirtschaft, Management, Marketing, Logistik usw.)",
+		"specialties": [
+			"Automatisierung",
+			"Bankwesen",
+			"Betriebswirtschaftslehre(BWL)",
+			"Bibliothekswesen",
+			"Bilanzrecht",
+			"Bildungspolitik",
+			"Buchhaltung",
+			"Business Administration",
+			"Business Analytics",
+			"Business Intelligence",
+			"Business Management",
+			"Changemanagement",
+			"Compliance Management",
+			"Controlling",
+			"Corporate Social Responsibility",
+			"Cross Media",
+			"Digital Marketing",
+			"Dirigieren",
+			"Fachkommunikation",
+			"Finanzanalyse",
+			"Finanztechnologie",
+			"Finanzwissenschaften",
+			"Gesellschaftswissenschaften",
+			"Informationssicherheit",
+			"Internationale Beziehungen",
+			"Internationales/Interkulturelles(MMGT)",
+			"Internetrecht",
+			"Kommunale Finanzpolitik",
+			"Kommunikationswissenschaften",
+			"Konzernkompetenzen",
+			"Kostenrechnung",
+			"Kryptowährungen/Stablecoins/Token",
+			"Kulturwirtschaft",
+			"Lebensfragen",
+			"Lebensmittelwirtschaft",
+			"Makroökonomie",
+			"Management",
+			"Marketing",
+			"Marktforschung",
+			"Materialwissenschaften",
+			"Mathematik",
+			"Mathematische Statistik",
+			"Medienwissenschaften",
+			"Mikroökonomie",
+			"Mobilität",
+			"Multimedia",
+			"Nachhaltigkeit",
+			"Nachhaltigkeitsmanagement",
+			"Operations Research",
+			"Organisation",
+			"Orgstrukturen Konzerne",
+			"Personalmanagement",
+			"Personalorganisation",
+			"Personalwesen",
+			"Rechnungslegung/Accounting",
+			"Rechnungswesen",
+			"Social Media",
+			"Social Media Marketing(SMM)",
+			"Sozialforschung und Marktforschung",
+			"Sozialmanagement",
+			"Sozialökonomie",
+			"Statistik",
+			"Technomathematik",
+			"Unternehmensführung",
+			"Unternehmenskompetenzen",
+			"Verwaltungswissenschaften",
+			"Volkswirtschaftslehre(VWL)",
+			"Werbeindustrie",
+			"Wertorientierte Unternehmensführung",
+			"Wirtschaft",
+			"Wirtschaftsethik/Unternehmensethik",
+			"Wirtschaftsgeschichte",
+			"Wirtschaftsinformatik",
+			"Wirtschaftsingenieurwesen",
+			"Wirtschaftsmathematik",
+			"Wirtschaftsphysik",
+			"Wirtschaftspsychologie",
+			"Wirtschaftspädagogik",
+			"Wirtschaftssprachen",
+			"Wirtschaftstheorie",
+			"Wirtschaftswissenschaften",
+			"Ökonomie"
+		],
+		"prices": [
+			{
+				"name": "Hausarbeit",
+				"perOneMin": 52,
+				"perOneMax": 76,
+				"quantityPrices": [5, 10, 15]
+			},
+			{
+				"name": "Seminararbeit",
+				"perOneMin": 52,
+				"perOneMax": 76,
+				"quantityPrices": [5, 10, 15]
+			},
+			{
+				"name": "Bachelorarbeit",
+				"perOneMin": 53,
+				"perOneMax": 78,
+				"quantityPrices": [15, 22, 30]
+			},
+			{
+				"name": "Diplomarbeit",
+				"perOneMin": 53,
+				"perOneMax": 84,
+				"quantityPrices": [25, 35, 45]
+			},
+			{
+				"name": "Masterarbeit",
+				"perOneMin": 54,
+				"perOneMax": 86,
+				"quantityPrices": [30, 40, 50]
+			},
+			{
+				"name": "Doktorarbeit",
+				"perOneMin": 64,
+				"perOneMax": 92,
+				"quantityPrices": [20, 40, 60, 100]
+			},
+			{
+				"name": "Dissertation",
+				"perOneMin": 64,
+				"perOneMax": 92,
+				"quantityPrices": [20, 40, 60, 100]
+			},
+			{
+				"name": "Facharbeit",
+				"perOneMin": 52,
+				"perOneMax": "",
+				"quantityPrices": []
+			},
+			{
+				"name": "Abschlussarbeit",
+				"perOneMin": 52,
+				"perOneMax": "",
+				"quantityPrices": []
+			},
+			{
+				"name": "Bewerbung",
+				"perOneMin": 50,
+				"perOneMax": "",
+				"quantityPrices": []
+			},
+			{
+				"name": "Biografie",
+				"perOneMin": 49,
+				"perOneMax": "",
+				"quantityPrices": []
+			},
+			{
+				"name": "Businessplan",
+				"perOneMin": 59,
+				"perOneMax": "",
+				"quantityPrices": []
+			},
+			{
+				"name": "Danksagung",
+				"perOneMin": 40,
+				"perOneMax": "",
+				"quantityPrices": []
+			},
+			{
+				"name": "Essay",
+				"perOneMin": 51,
+				"perOneMax": "",
+				"quantityPrices": []
+			},
+			{
+				"name": "Exposé",
+				"perOneMin": 53,
+				"perOneMax": "",
+				"quantityPrices": []
+			},
+			{
+				"name": "Forschungsantrag",
+				"perOneMin": 56,
+				"perOneMax": "",
+				"quantityPrices": []
+			},
+			{
+				"name": "Motivationsschreiben",
+				"perOneMin": 150,
+				"perOneMax": "",
+				"quantityPrices": []
+			},
+			{
+				"name": "Präsentationen",
+				"perSlide": 25,
+				"perOneMax": "",
+				"quantityPrices": []
+			},
+			{
+				"name": "Projektarbeit",
+				"perOneMin": 50,
+				"perOneMax": "",
+				"quantityPrices": []
+			},
+			{
+				"name": "Referat",
+				"perOneMin": 52,
+				"perOneMax": "",
+				"quantityPrices": []
+			},
+			{
+				"name": "Statistische Analyse",
+				"perOneMin": 52,
+				"perOneMax": "",
+				"quantityPrices": []
+			},
+			{
+				"name": "Statistische Auswertungen",
+				"perOneMin": 120,
+				"perOneMax": "",
+				"quantityPrices": []
+			},
+			{
+				"name": "Studienarbeit",
+				"perOneMin": 50,
+				"perOneMax": "",
+				"quantityPrices": []
+			},
+			{
+				"name": "Zusammenfassung",
+				"perOneMin": 60,
+				"perOneMax": "",
+				"quantityPrices": []
+			}
+		]
+	},
+	{
+		"category": "Ingenieurwissenschaften",
+		"description": "(Informatik, Maschinenbau, Systems Engineering, Bauingenieurwesen usw.)",
+		"specialties": [
+			"2D-Computergrafik",
+			"3D-Techniken",
+			"Agrar",
+			"Automobilwirtschaft",
+			"Bauingenieurwesen",
+			"Betriebswirtschaftslehre",
+			"Big Data Analytics",
+			"Bioinformatik",
+			"Biotechnologie",
+			"Change/Innovations Management",
+			"Civil Engineering",
+			"Computer Networking",
+			"Computer-Aided Design(CAD)",
+			"Computerlinguistik",
+			"Computerwissenschaft",
+			"Cybersicherheit",
+			"Data Communication",
+			"Datenschutz/Datensicherheit in der Gesundheitsbranche",
+			"DevOps",
+			"Digital Humanities",
+			"Digitale Transformation",
+			"Digitale und Plattform-Ökonomie",
+			"Digitalisierung",
+			"E-Commerce",
+			"Elektronik",
+			"Elektrotechnik",
+			"Gamedesign",
+			"Gesundheits-IT allgemein",
+			"IT-Controlling",
+			"IT-Management",
+			"IT-Recht",
+			"Industrie",
+			"Informatik",
+			"Informationstechnik",
+			"Informationstechnologie",
+			"Ingenieurwesen/Ingenieurswissenschaften",
+			"Ingenieurwissenschaften",
+			"Integrationsforschung",
+			"Internet",
+			"Internet of things",
+			"Krebs-IT",
+			"Künstliche Intelligenz(KI)",
+			"Lasertechnik",
+			"Lebensmittel",
+			"Lebensmittelchemie",
+			"Lebensmitteltechnik",
+			"Lichtbogenfügetechnik",
+			"Linux",
+			"Maschinenbau",
+			"Maschinenlernen",
+			"Mechatronik",
+			"Medizininformatik allgemein",
+			"Mikrocontroller",
+			"Modemanagement",
+			"Nanowissenschaften",
+			"Neurowissenschaften",
+			"Optische Systeme",
+			"Produktionsmanagement",
+			"Programmieren",
+			"Python",
+			"Softwareentwicklung",
+			"Softwarelokalisierung",
+			"Studien-IT",
+			"Systemanalyse Programmentwicklung(SAP)",
+			"Technikgeschichte",
+			"Technische Bereich",
+			"Technologie/Technik",
+			"Telematik",
+			"Thermodynamik",
+			"Tumordokuemtnation",
+			"Umweltingenieurwesen",
+			"Verfahrenstechnik",
+			"Verkehrsforschung",
+			"Videoschnitt-Techniken"
+		],
+		"prices": [
+			{
+				"name": "Hausarbeit",
+				"perOneMin": 58,
+				"perOneMax": 81,
+				"quantityPrices": [5, 10, 15]
+			},
+			{
+				"name": "Seminararbeit",
+				"perOneMin": 58,
+				"perOneMax": 81,
+				"quantityPrices": [5, 10, 15]
+			},
+			{
+				"name": "Bachelorarbeit",
+				"perOneMin": 58,
+				"perOneMax": 83,
+				"quantityPrices": [15, 22, 30]
+			},
+			{
+				"name": "Diplomarbeit",
+				"perOneMin": 59,
+				"perOneMax": 87,
+				"quantityPrices": [25, 35, 45]
+			},
+			{
+				"name": "Masterarbeit",
+				"perOneMin": 60,
+				"perOneMax": 89,
+				"quantityPrices": [30, 40, 50]
+			},
+			{
+				"name": "Doktorarbeit",
+				"perOneMin": 67,
+				"perOneMax": 95,
+				"quantityPrices": [20, 40, 60, 100]
+			},
+			{
+				"name": "Dissertation",
+				"perOneMin": 67,
+				"perOneMax": 95,
+				"quantityPrices": [20, 40, 60, 100]
+			},
+			{
+				"name": "Facharbeit",
+				"perOneMin": 58,
+				"perOneMax": "",
+				"quantityPrices": []
+			},
+			{
+				"name": "Abschlussarbeit",
+				"perOneMin": 58,
+				"perOneMax": "",
+				"quantityPrices": []
+			},
+			{
+				"name": "Bewerbung",
+				"perOneMin": 50,
+				"perOneMax": "",
+				"quantityPrices": []
+			},
+			{
+				"name": "Biografie",
+				"perOneMin": 49,
+				"perOneMax": "",
+				"quantityPrices": []
+			},
+			{
+				"name": "Businessplan",
+				"perOneMin": 59,
+				"perOneMax": "",
+				"quantityPrices": []
+			},
+			{
+				"name": "Danksagung",
+				"perOneMin": 40,
+				"perOneMax": "",
+				"quantityPrices": []
+			},
+			{
+				"name": "Essay",
+				"perOneMin": 56,
+				"perOneMax": "",
+				"quantityPrices": []
+			},
+			{
+				"name": "Exposé",
+				"perOneMin": 58,
+				"perOneMax": "",
+				"quantityPrices": []
+			},
+			{
+				"name": "Forschungsantrag",
+				"perOneMin": 56,
+				"perOneMax": "",
+				"quantityPrices": []
+			},
+			{
+				"name": "Motivationsschreiben",
+				"perOneMin": 150,
+				"perOneMax": "",
+				"quantityPrices": []
+			},
+			{
+				"name": "Präsentationen",
+				"perSlide": 25,
+				"perOneMax": "",
+				"quantityPrices": []
+			},
+			{
+				"name": "Projektarbeit",
+				"perOneMin": 50,
+				"perOneMax": "",
+				"quantityPrices": []
+			},
+			{
+				"name": "Referat",
+				"perOneMin": 57,
+				"perOneMax": "",
+				"quantityPrices": []
+			},
+			{
+				"name": "Statistische Analyse",
+				"perOneMin": 52,
+				"perOneMax": "",
+				"quantityPrices": []
+			},
+			{
+				"name": "Statistische Auswertungen",
+				"perOneMin": 120,
+				"perOneMax": "",
+				"quantityPrices": []
+			},
+			{
+				"name": "Studienarbeit",
+				"perOneMin": 50,
+				"perOneMax": "",
+				"quantityPrices": []
+			},
+			{
+				"name": "Zusammenfassung",
+				"perOneMin": 60,
+				"perOneMax": "",
+				"quantityPrices": []
+			}
+		]
+	},
+	{
+		"category": "Rechtswissenschaften",
+		"description": "(Jura, Europäisches Wirtschaftsrecht, Versicherungsrecht usw.)",
+		"specialties": [
+			"Arbeitsrecht",
+			"Insolvenzrecht",
+			"Jura",
+			"Logistik",
+			"Mediation",
+			"Naturwissenschaftliche Forensik",
+			"Politikwissenschaften",
+			"Prozessrecht",
+			"Publizistik",
+			"Rechtsgeschichte",
+			"Rechtslinguistik",
+			"Rechtstheorie",
+			"Rechtswissenschaften",
+			"Sciences",
+			"Steuerrecht",
+			"Wettbewerbsrecht",
+			"Wirtschaftsrecht",
+			"Zivilrecht",
+			"interdisziplinär",
+			"Öffentliche Verwaltung"
+		],
+		"prices": [
+			{
+				"name": "Hausarbeit",
+				"perOneMin": 55,
+				"perOneMax": 78,
+				"quantityPrices": [5, 10, 15]
+			},
+			{
+				"name": "Seminararbeit",
+				"perOneMin": 55,
+				"perOneMax": 78,
+				"quantityPrices": [5, 10, 15]
+			},
+			{
+				"name": "Bachelorarbeit",
+				"perOneMin": 56,
+				"perOneMax": 79,
+				"quantityPrices": [15, 22, 30]
+			},
+			{
+				"name": "Diplomarbeit",
+				"perOneMin": 56,
+				"perOneMax": 81,
+				"quantityPrices": [25, 35, 45]
+			},
+			{
+				"name": "Masterarbeit",
+				"perOneMin": 59,
+				"perOneMax": 87,
+				"quantityPrices": [30, 40, 50]
+			},
+			{
+				"name": "Doktorarbeit",
+				"perOneMin": 66,
+				"perOneMax": 93,
+				"quantityPrices": [20, 40, 60, 100]
+			},
+			{
+				"name": "Dissertation",
+				"perOneMin": 66,
+				"perOneMax": 93,
+				"quantityPrices": [20, 40, 60, 100]
+			},
+			{
+				"name": "Facharbeit",
+				"perOneMin": 55,
+				"perOneMax": "",
+				"quantityPrices": []
+			},
+			{
+				"name": "Abschlussarbeit",
+				"perOneMin": 55,
+				"perOneMax": "",
+				"quantityPrices": []
+			},
+			{
+				"name": "Bewerbung",
+				"perOneMin": 50,
+				"perOneMax": "",
+				"quantityPrices": []
+			},
+			{
+				"name": "Biografie",
+				"perOneMin": 49,
+				"perOneMax": "",
+				"quantityPrices": []
+			},
+			{
+				"name": "Businessplan",
+				"perOneMin": 59,
+				"perOneMax": "",
+				"quantityPrices": []
+			},
+			{
+				"name": "Danksagung",
+				"perOneMin": 40,
+				"perOneMax": "",
+				"quantityPrices": []
+			},
+			{
+				"name": "Essay",
+				"perOneMin": 55,
+				"perOneMax": "",
+				"quantityPrices": []
+			},
+			{
+				"name": "Exposé",
+				"perOneMin": 56,
+				"perOneMax": "",
+				"quantityPrices": []
+			},
+			{
+				"name": "Forschungsantrag",
+				"perOneMin": 56,
+				"perOneMax": "",
+				"quantityPrices": []
+			},
+			{
+				"name": "Motivationsschreiben",
+				"perOneMin": 150,
+				"perOneMax": "",
+				"quantityPrices": []
+			},
+			{
+				"name": "Präsentationen",
+				"perSlide": 25,
+				"perOneMax": "",
+				"quantityPrices": []
+			},
+			{
+				"name": "Projektarbeit",
+				"perOneMin": 50,
+				"perOneMax": "",
+				"quantityPrices": []
+			},
+			{
+				"name": "Referat",
+				"perOneMin": 56,
+				"perOneMax": "",
+				"quantityPrices": []
+			},
+			{
+				"name": "Statistische Analyse",
+				"perOneMin": 52,
+				"perOneMax": "",
+				"quantityPrices": []
+			},
+			{
+				"name": "Statistische Auswertungen",
+				"perOneMin": 120,
+				"perOneMax": "",
+				"quantityPrices": []
+			},
+			{
+				"name": "Studienarbeit",
+				"perOneMin": 50,
+				"perOneMax": "",
+				"quantityPrices": []
+			},
+			{
+				"name": "Zusammenfassung",
+				"perOneMin": 60,
+				"perOneMax": "",
+				"quantityPrices": []
+			}
+		]
+	},
+	{
+		"category": "Medizin und Naturwissenschaften",
+		"description": "(Medizin, Krankenpflege, Chemie, Biologie, Pharmazie, Physik usw.)",
+		"specialties": [
+			"Agrarwissenschaften",
+			"Alternative Medizin",
+			"Anthropologie",
+			"Archäologie",
+			"Arzneimittelentwicklung",
+			"Arzneimittelsicherheit",
+			"Augenoptik",
+			"Automobil Marketing",
+			"Biochemie",
+			"Biologie",
+			"Biomedizin",
+			"Biowissenschaften",
+			"Botanik",
+			"Chemie",
+			"Chemieingenieurwesen",
+			"Earth and Space",
+			"Epidemiologie",
+			"Ernährungswissenschaften",
+			"Ethnologie",
+			"Fahrzeugtechnik",
+			"Forstwirtschaft",
+			"Geisteswissenschaften",
+			"Genetik",
+			"Geografie",
+			"Geographie",
+			"Geologie",
+			"Geopolitik",
+			"Geowissenschaften",
+			"Geoökologie",
+			"Gerontologie",
+			"Gesundheitsmanagement",
+			"Gesundheitswesen",
+			"Gesundheitswissenschaften",
+			"Gesundheitsökonomie",
+			"Globalisierung",
+			"Gynäkologie",
+			"Humanmedizin",
+			"Hydrologie",
+			"Immobilienwirtschaft",
+			"Immunologie",
+			"Implantologie",
+			"Klimatologie",
+			"Klinische Studien",
+			"Landschaftsarchitektur",
+			"Landwirtschaft",
+			"Luft",
+			"Medizin",
+			"Medizingeschichte",
+			"Medizinpädagogik",
+			"Medizintechnik",
+			"Meerestechnik",
+			"Meteorologie",
+			"Migrationsforschung",
+			"Mikrobiologie",
+			"Molekularbiologie",
+			"Optometrie",
+			"Osteopathie",
+			"Pflegewissenschaften",
+			"Pharmakokinetik",
+			"Pharmakologie",
+			"Pharmazie / Pharmazeutische",
+			"Physik",
+			"Physiologie",
+			"Psychiatrie",
+			"Psychotherapie",
+			"Raumfahrttechnik",
+			"Rehabilitationswissenschaften",
+			"Spirituelle",
+			"Tiermedizin",
+			"Umweltschutz",
+			"Umweltschutztechnik",
+			"Umweltwissenschaften",
+			"Veterinärmedizin",
+			"Virologie",
+			"Wirtschaftsprüfung",
+			"Wissenschaften",
+			"Yoga/Meditation",
+			"Zahnmedizin",
+			"Zellbiologie",
+			"Zoologie",
+			"Ökologie"
+		],
+		"prices": [
+			{
+				"name": "Hausarbeit",
+				"perOneMin": 51,
+				"perOneMax": 76,
+				"quantityPrices": [5, 10, 15]
+			},
+			{
+				"name": "Seminararbeit",
+				"perOneMin": 51,
+				"perOneMax": 76,
+				"quantityPrices": [5, 10, 15]
+			},
+			{
+				"name": "Bachelorarbeit",
+				"perOneMin": 53,
+				"perOneMax": 80,
+				"quantityPrices": [15, 22, 30]
+			},
+			{
+				"name": "Diplomarbeit",
+				"perOneMin": 55,
+				"perOneMax": 82,
+				"quantityPrices": [25, 35, 45]
+			},
+			{
+				"name": "Masterarbeit",
+				"perOneMin": 55,
+				"perOneMax": 85,
+				"quantityPrices": [30, 40, 50]
+			},
+			{
+				"name": "Doktorarbeit",
+				"perOneMin": 64,
+				"perOneMax": 93,
+				"quantityPrices": [20, 40, 60, 100]
+			},
+			{
+				"name": "Dissertation",
+				"perOneMin": 64,
+				"perOneMax": 93,
+				"quantityPrices": [20, 40, 60, 100]
+			},
+			{
+				"name": "Facharbeit",
+				"perOneMin": 53,
+				"perOneMax": "",
+				"quantityPrices": []
+			},
+			{
+				"name": "Abschlussarbeit",
+				"perOneMin": 54,
+				"perOneMax": "",
+				"quantityPrices": []
+			},
+			{
+				"name": "Bewerbung",
+				"perOneMin": 50,
+				"perOneMax": "",
+				"quantityPrices": []
+			},
+			{
+				"name": "Biografie",
+				"perOneMin": 49,
+				"perOneMax": "",
+				"quantityPrices": []
+			},
+			{
+				"name": "Businessplan",
+				"perOneMin": 59,
+				"perOneMax": "",
+				"quantityPrices": []
+			},
+			{
+				"name": "Danksagung",
+				"perOneMin": 40,
+				"perOneMax": "",
+				"quantityPrices": []
+			},
+			{
+				"name": "Essay",
+				"perOneMin": 54,
+				"perOneMax": "",
+				"quantityPrices": []
+			},
+			{
+				"name": "Exposé",
+				"perOneMin": 53,
+				"perOneMax": "",
+				"quantityPrices": []
+			},
+			{
+				"name": "Forschungsantrag",
+				"perOneMin": 56,
+				"perOneMax": "",
+				"quantityPrices": []
+			},
+			{
+				"name": "Motivationsschreiben",
+				"perOneMin": 150,
+				"perOneMax": "",
+				"quantityPrices": []
+			},
+			{
+				"name": "Präsentationen",
+				"perSlide": 25,
+				"perOneMax": "",
+				"quantityPrices": []
+			},
+			{
+				"name": "Projektarbeit",
+				"perOneMin": 50,
+				"perOneMax": "",
+				"quantityPrices": []
+			},
+			{
+				"name": "Referat",
+				"perOneMin": 51,
+				"perOneMax": "",
+				"quantityPrices": []
+			},
+			{
+				"name": "Statistische Analyse",
+				"perOneMin": 52,
+				"perOneMax": "",
+				"quantityPrices": []
+			},
+			{
+				"name": "Statistische Auswertungen",
+				"perOneMin": 120,
+				"perOneMax": "",
+				"quantityPrices": []
+			},
+			{
+				"name": "Studienarbeit",
+				"perOneMin": 50,
+				"perOneMax": "",
+				"quantityPrices": []
+			},
+			{
+				"name": "Zusammenfassung",
+				"perOneMin": 60,
+				"perOneMax": "",
+				"quantityPrices": []
+			}
+		]
+	}
+]

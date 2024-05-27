@@ -1,0 +1,35 @@
+.message {
+	overflow: hidden;
+
+	&__wrapper {
+		margin: 0 auto;
+		position: relative;
+		@include fluidPaddingLR(10px, 15px, 480px, 1024px, 10px);
+		margin-bottom: 20px;
+	}
+
+	&__img {
+		position: absolute;
+		bottom: 10px;
+		right: 100px;
+		z-index: -1;
+	}
+}
+
+@media (max-width: 1166px) {
+	.message {
+		&__img {
+			// bottom: 13px;
+			right: 35px;
+			// width: 258px;
+		}
+	}
+}
+
+@media (max-width: 960px) {
+	.message {
+		&__img {
+			display: none;
+		}
+	}
+}

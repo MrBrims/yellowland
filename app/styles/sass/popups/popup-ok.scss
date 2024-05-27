@@ -1,0 +1,26 @@
+.popup-ok {
+  &__content {
+    max-width: 560px;
+  }
+  &__inner {
+    padding: 0 50px 30px 50px;
+  }
+  &__title {
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 27px;
+    text-align: center;
+    color: $titlecolor;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+  }
+  &__text {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  &__img {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
